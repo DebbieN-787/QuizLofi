@@ -1,0 +1,89 @@
+body{
+	width: 1700px;
+	height: 800px;
+	background-image: url('lofi-girl-music.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.panel{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: left;
+}
+.question-container{
+	margin: 10px;
+	padding: 10px;
+	width: 39vw;
+	height: 10vh;
+	background-color: pink;
+	font-size: 40px;
+	text-align: center;
+    border-radius: 2%;
+    
+	
+}
+
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:40vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+    background-color: rgba(245, 241, 241, 0.5);
+    border-radius: 2%;
+	
+	
+}
+.option-container{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 5px;
+	width: 40vw;
+	height: 10vh;
+	background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 2%;
+	
+}
+.option{
+	padding: 10px;
+	width: 10vw;
+	height: 10vh;
+	font-size: larger;
+	background-color: rgb(255, 246, 221);
+	border-radius: 7%;
+}
+.option:hover{
+	background-color: rgb(152, 215, 226);
+}
+.navigation{
+	width: 40vw;
+	height: 11vh;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 2%;
+}
+
+.evaluate,.next{
+	width:30vw;
+	height: 8vh;
+	padding: 5px;
+	font-size: larger;
+}
+.evaluate{
+
+	background-color: #b0a3d3;
+}
+.next{
+	color: white;
+	background-color: #df9eb9;
+}
+
+  
